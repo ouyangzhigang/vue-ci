@@ -49,9 +49,15 @@ compare with babel config several kinds programme
 | @babel/preset-env | 按需引入babel插件, 可配置性高 | 能根据不同版本按需求加载相关插件编译, 但无法兼容实例方法 |
 | @babel/preset-env & @babel/runtime & @babel/plugin-transform-runtime | 设置useBuiltIn: 'usage'按需引入, 可配置性高, 代码重用率高 | -- |
 
+browserslist
+`npx browserslist` 查看代码覆盖率
+`package.json key browserslist` or `.browserslistrc`config
+
 
 babel reference
 * [babel docs](https://www.babeljs.cn/docs/, "文档参照")
 * [polyfill & runtime](https://juejin.im/post/5d553706e51d4561e84fcc13, "两种兼容模式对比")
 * [webpack babel-loader](https://webpack.js.org/loaders/babel-loader/, "求积若渴就点吧")
-
+* [browserslist](https://github.com/browserslist/browserslist)
+* [A page to display compatible browsers from a browserslist string.](https://browserl.ist/)
+* [Autoprefixer + Browserslist 浏览器兼容配置](https://zhuanlan.zhihu.com/p/81286302)
