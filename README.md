@@ -51,6 +51,7 @@ compare with babel config several kinds programme
 
 
 babel reference
-
-[polyfill 与 runtime](https://juejin.im/post/5d553706e51d4561e84fcc13, "求知若渴")
+* [babel docs](https://www.babeljs.cn/docs/, "文档参照")
+* [polyfill & runtime](https://juejin.im/post/5d553706e51d4561e84fcc13, "两种兼容模式对比")
+* [webpack babel-loader](https://webpack.js.org/loaders/babel-loader/, "求积若渴就点吧")
 
