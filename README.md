@@ -55,6 +55,10 @@ browserslist
 
 - `package.json key browserslist` or `.browserslistrc`config
 
+```
+  "browserslist": "> 1%, last 3 versions"
+```
+
 
 babel reference
 * [babel docs](https://www.babeljs.cn/docs/, "文档参照")
