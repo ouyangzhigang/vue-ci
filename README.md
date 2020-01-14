@@ -51,9 +51,9 @@ compare with babel config several kinds programme
 
 browserslist
 
-    `npx browserslist` 查看代码覆盖率
+- `npx browserslist` 查看代码覆盖率
 
-    `package.json key browserslist` or `.browserslistrc`config
+- `package.json key browserslist` or `.browserslistrc`config
 
 
 babel reference
