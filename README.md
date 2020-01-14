@@ -67,3 +67,56 @@ babel reference
 * [browserslist](https://github.com/browserslist/browserslist)
 * [A page to display compatible browsers from a browserslist string.](https://browserl.ist/)
 * [Autoprefixer + Browserslist 浏览器兼容配置](https://zhuanlan.zhihu.com/p/81286302)
+
+## ESLint
+install
+```
+npm install eslint --save-dev
+
+# or
+
+yarn add eslint --dev
+```
+genarator lint configuration file
+```
+npx eslint --init
+```
+
+eslint-loader
+```
+{
+    test: /\.jsx?$/,
+    // exclude: /node_modules/,
+    include: /src/,
+    use: ['babel-loader', 'eslint-loader']
+}
+```
+
+configuration
+```
+module.exports = {
+  env: {
+    browser: true,
+    es6: true,
+  },
+  extends: [
+    'plugin:vue/essential',
+    'airbnb-base',
+  ],
+  globals: {
+    Atomics: 'readonly',
+    SharedArrayBuffer: 'readonly',
+  },
+  parserOptions: {
+    ecmaVersion: 2018,
+    sourceType: 'module',
+  },
+  plugins: [
+    'vue',
+  ],
+  rules: {
+    'no-console': 'off'
+  },
+}
+```
+
