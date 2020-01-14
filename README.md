@@ -1,3 +1,11 @@
+[![npm][npm]][npm-url]
+[![node][node]][node-url]
+[![deps][deps]][deps-url]
+[![test][test]][test-url]
+[![coverage][cover]][cover-url]
+[![code style][style]][style-url]
+[![chat][chat]][chat-url]
+
 # vue-ci
 that vue framework project, includes vuex router lodash so on, it's can be custom assemble
 
@@ -119,4 +127,18 @@ module.exports = {
   },
 }
 ```
+
+## autoprefixer & postcss
+install
+```
+npm install postcss-loader autoprefixer --save-dev
+```
+
+configurable
+```
+
+```
+
+## template
+[meta references](https://www.jianshu.com/p/b5dcc3fc1aed)
 
