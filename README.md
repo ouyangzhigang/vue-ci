@@ -50,8 +50,10 @@ compare with babel config several kinds programme
 | @babel/preset-env & @babel/runtime & @babel/plugin-transform-runtime | 设置useBuiltIn: 'usage'按需引入, 可配置性高, 代码重用率高 | -- |
 
 browserslist
-`npx browserslist` 查看代码覆盖率
-`package.json key browserslist` or `.browserslistrc`config
+
+    `npx browserslist` 查看代码覆盖率
+
+    `package.json key browserslist` or `.browserslistrc`config
 
 
 babel reference
