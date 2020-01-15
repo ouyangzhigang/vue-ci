@@ -148,4 +148,4 @@ module.exports = {
 
 ## template
 [meta references](https://www.jianshu.com/p/b5dcc3fc1aed)
-
+[vue-loader references](https://vue-loader.vuejs.org/zh/)
