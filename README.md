@@ -125,6 +125,7 @@ module.exports = {
 [![tests](https://img.shields.io/travis/jescalan/autoprefixer-stylus/master.svg?style=flat)](https://travis-ci.org/jescalan/autoprefixer-stylus)
 [![coverage](https://img.shields.io/coveralls/jescalan/autoprefixer-stylus/master.svg?style=flat)](https://coveralls.io/r/jescalan/autoprefixer-stylus)
 [![dependencies](https://img.shields.io/david/jescalan/autoprefixer-stylus.svg?style=flat)](https://david-dm.org/jescalan/autoprefixer-stylus)
+
 install
 ```
 npm install postcss-loader autoprefixer --save-dev
