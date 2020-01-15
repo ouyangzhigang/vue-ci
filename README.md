@@ -1,11 +1,3 @@
-[![npm][npm]][npm-url]
-[![node][node]][node-url]
-[![deps][deps]][deps-url]
-[![test][test]][test-url]
-[![coverage][cover]][cover-url]
-[![code style][style]][style-url]
-[![chat][chat]][chat-url]
-
 # vue-ci
 that vue framework project, includes vuex router lodash so on, it's can be custom assemble
 
@@ -129,6 +121,10 @@ module.exports = {
 ```
 
 ## autoprefixer & postcss
+[![npm](https://img.shields.io/npm/v/autoprefixer-stylus.svg?style=flat)](http://badge.fury.io/js/autoprefixer-stylus)
+[![tests](https://img.shields.io/travis/jescalan/autoprefixer-stylus/master.svg?style=flat)](https://travis-ci.org/jescalan/autoprefixer-stylus)
+[![coverage](https://img.shields.io/coveralls/jescalan/autoprefixer-stylus/master.svg?style=flat)](https://coveralls.io/r/jescalan/autoprefixer-stylus)
+[![dependencies](https://img.shields.io/david/jescalan/autoprefixer-stylus.svg?style=flat)](https://david-dm.org/jescalan/autoprefixer-stylus)
 install
 ```
 npm install postcss-loader autoprefixer --save-dev
@@ -136,7 +132,17 @@ npm install postcss-loader autoprefixer --save-dev
 
 configurable
 ```
+// postcss.config.js
+module.exports = {
+  parser: 'sugarss',
+  plugins: {
+    'postcss-import': {},
+    'postcss-preset-env': {},
+    'cssnano': {}
+  }
+}
 
+// 
 ```
 
 ## template
